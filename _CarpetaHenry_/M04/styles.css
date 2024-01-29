@@ -10,6 +10,7 @@ a {
 }
 
 body {
+    font-family: 'Arial', sans-serif;
     color: white;
     background-color: #3b3b3b;
 }
@@ -76,6 +77,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
 .footer a{
     padding: 10px;
     margin: 20px;
@@ -84,6 +87,11 @@ body {
 .footer a i{
     padding: 5px;
     margin: 10px;
+}
+
+.footer a:hover{
+    color: goldenrod;
+    font-size: 20px;
 }
 
 hr{
@@ -123,7 +131,7 @@ hr{
 }
 
 .card h2{
-    margin: 10px;
+    margin: 20px;
 }
 
 .card img{

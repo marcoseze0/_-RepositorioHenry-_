@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    color: white;
+    background-color: #3b3b3b;
+}
+
+.header {
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    width: auto;
+}
+
+.navbar a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.navbar a:hover{
+    color: gold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.redes {
+    width: 300px;
+}
+
+.redes i {
+    padding: 10px;
+    color: white;
+}
+
+.redes a i:hover {
+    font-size: 40px;
+    color: gold;
+}
+
+.foo {
+    color: white;
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer a{
+    padding: 10px;
+    margin: 20px;
+}
+
+.footer a i{
+    padding: 5px;
+    margin: 10px;
+}
+
+hr{
+ width: 100%
+}
+
+.politicas{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+.politicas p,a{
+    margin: 10px;
+    padding: 5px;
+}
+
+.politicas a:hover{
+    text-decoration:underline;
+}
+
+.cards{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.card h2{
+    margin: 10px;
+}
+
+.card img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.card img:hover{
+    transform: scale(1.1)
+}
